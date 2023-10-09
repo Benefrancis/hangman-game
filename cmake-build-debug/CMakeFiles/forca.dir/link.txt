@@ -1,0 +1,3 @@
+C:\Users\Benefrancis\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\forca.dir/objects.a
+C:\Users\Benefrancis\AppData\Local\Programs\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\forca.dir/objects.a @CMakeFiles\forca.dir\objects1.rsp
+C:\Users\Benefrancis\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\forca.dir/objects.a -Wl,--no-whole-archive -o forca.exe -Wl,--out-implib,libforca.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\forca.dir\linkLibs.rsp
