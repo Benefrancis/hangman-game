@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="forca"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Benefrancis/CLionProjects/hangman-game/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Benefrancis/CLionProjects/hangman-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Benefrancis/CLionProjects/hangman-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Benefrancis/CLionProjects/hangman-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Benefrancis/CLionProjects/hangman-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="forca">
+				<Option output="C:/Users/Benefrancis/CLionProjects/hangman-game/cmake-build-debug/forca.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Benefrancis/CLionProjects/hangman-game/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Benefrancis/CLionProjects/hangman-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 forca"/>
+					<CompileFile command="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Benefrancis/CLionProjects/hangman-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Benefrancis/CLionProjects/hangman-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Benefrancis/CLionProjects/hangman-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="forca/fast">
+				<Option output="C:/Users/Benefrancis/CLionProjects/hangman-game/cmake-build-debug/forca.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Benefrancis/CLionProjects/hangman-game/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Benefrancis/CLionProjects/hangman-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 forca/fast"/>
+					<CompileFile command="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Benefrancis/CLionProjects/hangman-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Benefrancis/CLionProjects/hangman-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Benefrancis/CLionProjects/hangman-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Benefrancis/CLionProjects/hangman-game/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Benefrancis/CLionProjects/hangman-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Benefrancis/CLionProjects/hangman-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Benefrancis/CLionProjects/hangman-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Benefrancis/CLionProjects/hangman-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Benefrancis/CLionProjects/hangman-game/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Benefrancis/CLionProjects/hangman-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Benefrancis/CLionProjects/hangman-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Benefrancis/CLionProjects/hangman-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Benefrancis/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Benefrancis/CLionProjects/hangman-game/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Benefrancis/CLionProjects/hangman-game/acertou.cpp">
+			<Option target="forca"/>
+		</Unit>
+		<Unit filename="C:/Users/Benefrancis/CLionProjects/hangman-game/adiciona_palavra.cpp">
+			<Option target="forca"/>
+		</Unit>
+		<Unit filename="C:/Users/Benefrancis/CLionProjects/hangman-game/adiciona_palavra.hpp">
+			<Option target="forca"/>
+		</Unit>
+		<Unit filename="C:/Users/Benefrancis/CLionProjects/hangman-game/cabecalho.cpp">
+			<Option target="forca"/>
+		</Unit>
+		<Unit filename="C:/Users/Benefrancis/CLionProjects/hangman-game/chute.cpp">
+			<Option target="forca"/>
+		</Unit>
+		<Unit filename="C:/Users/Benefrancis/CLionProjects/hangman-game/chutes_errados.cpp">
+			<Option target="forca"/>
+		</Unit>
+		<Unit filename="C:/Users/Benefrancis/CLionProjects/hangman-game/enforcou.cpp">
+			<Option target="forca"/>
+		</Unit>
+		<Unit filename="C:/Users/Benefrancis/CLionProjects/hangman-game/existe.cpp">
+			<Option target="forca"/>
+		</Unit>
+		<Unit filename="C:/Users/Benefrancis/CLionProjects/hangman-game/existe.hpp">
+			<Option target="forca"/>
+		</Unit>
+		<Unit filename="C:/Users/Benefrancis/CLionProjects/hangman-game/forca.cpp">
+			<Option target="forca"/>
+		</Unit>
+		<Unit filename="C:/Users/Benefrancis/CLionProjects/hangman-game/imprime_palavra.cpp">
+			<Option target="forca"/>
+		</Unit>
+		<Unit filename="C:/Users/Benefrancis/CLionProjects/hangman-game/ler_arquivo.cpp">
+			<Option target="forca"/>
+		</Unit>
+		<Unit filename="C:/Users/Benefrancis/CLionProjects/hangman-game/ler_arquivo.hpp">
+			<Option target="forca"/>
+		</Unit>
+		<Unit filename="C:/Users/Benefrancis/CLionProjects/hangman-game/placar.cpp">
+			<Option target="forca"/>
+		</Unit>
+		<Unit filename="C:/Users/Benefrancis/CLionProjects/hangman-game/salva_arquivo.cpp">
+			<Option target="forca"/>
+		</Unit>
+		<Unit filename="C:/Users/Benefrancis/CLionProjects/hangman-game/sorteia.cpp">
+			<Option target="forca"/>
+		</Unit>
+		<Unit filename="C:/Users/Benefrancis/CLionProjects/hangman-game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
