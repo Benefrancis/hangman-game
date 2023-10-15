@@ -1,0 +1,5 @@
+.vscode/
+*.o
+*.out
+# Project exclude paths
+/cmake-build-debug/
