@@ -7,7 +7,6 @@ add_executable(forca main.cpp
         imprime_erros.cpp
         adiciona_palavra.cpp
         chuta.cpp
-        imprime_cabecalho.cpp
         imprime_erros.cpp
         le_arquivo.cpp
         letra_existe.cpp
@@ -20,4 +19,7 @@ add_executable(forca main.cpp
         nao_enforcou.cpp
         salva_arquivo.cpp
         sorteia_palavra.cpp
-        imprime_palavra.cpp)
+        imprime_palavra.cpp
+        enforcou.cpp
+        existe.cpp
+)

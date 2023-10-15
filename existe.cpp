@@ -3,9 +3,10 @@
 //
 #include<string>
 
+
 using namespace std;
 
-string palavra_secreta;
+extern std::string palavra_secreta;
 
 
 /**

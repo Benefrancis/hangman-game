@@ -16,17 +16,18 @@
 
 using namespace std;
 
-string palavra_secreta; 
+string palavra_secreta;
 map<char, bool> chutou;
 vector<char> chutes_errados;
 
-int main () {
+int main() {
+
     imprime_cabecalho();
 
     le_arquivo();
     sorteia_palavra();
 
-    while(nao_acertou() && nao_enforcou()){
+    while (nao_acertou() && nao_enforcou()) {
         imprime_erros();
 
         imprime_palavra();
@@ -36,19 +37,18 @@ int main () {
 
     cout << "Fim de jogo!" << endl;
     cout << "A palavra secreta era: " << palavra_secreta << endl;
-    if(nao_acertou()){
+    if (nao_acertou()) {
         cout << "Você perdeu! Tente novamente!" << endl;
-    }
-    else{
+    } else {
         cout << "Parabéns! Você acertou a palavra secreta!" << endl;
 
         cout << "Você deseja adicionar uma nova palavra ao banco? (S/N) ";
         char resposta;
         cin >> resposta;
-        if(resposta == 'S'){
+        if (resposta == 'S') {
             adiciona_palavra();
         }
     }
-    
+
     cin.get();
 }
